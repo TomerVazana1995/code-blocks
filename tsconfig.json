@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    // other options...
+    "typeRoots": [
+        "./node_modules/@types",
+        "./src/@types" // or wherever you placed your declaration file
+    ]
+}
+}

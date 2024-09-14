@@ -38,7 +38,7 @@ const CodeBlock = () => {
 
   // set the socket listeners
   useEffect(() => {
-    socketRef.current = io("http://localhost:5000");
+    socketRef.current = io("https://code-block-api-production.up.railway.app");
     const socket = socketRef.current;
 
     if (socket) {
